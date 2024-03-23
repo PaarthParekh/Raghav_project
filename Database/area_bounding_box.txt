@@ -1,0 +1,4 @@
+[{"network":"CI", "minlatitude":32.0,"maxlatitude": 36.0,"minlongitude":-120.0, "maxlongitude":-116.0}, 
+{"network":"UW", "minlatitude":41.0,"maxlatitude": 49.0,"minlongitude":-125.0, "maxlongitude":-116.0},
+{"network":"OK", "minlatitude":33.0,"maxlatitude": 37.0,"minlongitude":-100.0, "maxlongitude":-94.0},
+{"network":"CN", "minlatitude":48.26,"maxlatitude": 51.05,"minlongitude":-129.5, "maxlongitude":-121.42}]

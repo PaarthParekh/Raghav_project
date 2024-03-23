@@ -1,0 +1,2395 @@
+[{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd77"
+  },
+  "id": 0,
+  "station_name": "ADO",
+  "station_lat": 34.550461,
+  "station_lon": -117.433907,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd78"
+  },
+  "id": 1,
+  "station_name": "AGA",
+  "station_lat": 33.638378,
+  "station_lon": -116.4011,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd79"
+  },
+  "id": 2,
+  "station_name": "ALP",
+  "station_lat": 34.68708,
+  "station_lon": -118.299461,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd7a"
+  },
+  "id": 3,
+  "station_name": "ARV",
+  "station_lat": 35.1269,
+  "station_lon": -118.83009,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd7b"
+  },
+  "id": 4,
+  "station_name": "BAK",
+  "station_lat": 35.34444,
+  "station_lon": -119.104446,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd7c"
+  },
+  "id": 5,
+  "station_name": "BAR",
+  "station_lat": 32.68005,
+  "station_lon": -116.67215,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd7d"
+  },
+  "id": 6,
+  "station_name": "BBR",
+  "station_lat": 34.2623,
+  "station_lon": -116.92075,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd7e"
+  },
+  "id": 7,
+  "station_name": "BBS",
+  "station_lat": 33.921391,
+  "station_lon": -116.980583,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd7f"
+  },
+  "id": 8,
+  "station_name": "BCC",
+  "station_lat": 33.575081,
+  "station_lon": -117.261192,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd80"
+  },
+  "id": 9,
+  "station_name": "BCW",
+  "station_lat": 34.94009,
+  "station_lon": -119.41313,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd81"
+  },
+  "id": 10,
+  "station_name": "BFS",
+  "station_lat": 34.238831,
+  "station_lon": -117.658531,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd82"
+  },
+  "id": 11,
+  "station_name": "BHP",
+  "station_lat": 33.99053,
+  "station_lon": -118.36171,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd83"
+  },
+  "id": 12,
+  "station_name": "BKR",
+  "station_lat": 35.269299,
+  "station_lon": -116.070297,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd84"
+  },
+  "id": 13,
+  "station_name": "BLA",
+  "station_lat": 34.069481,
+  "station_lon": -116.388962,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd85"
+  },
+  "id": 14,
+  "station_name": "BLA2",
+  "station_lat": 34.06931,
+  "station_lon": -116.38993,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd86"
+  },
+  "id": 15,
+  "station_name": "BLC",
+  "station_lat": 34.243561,
+  "station_lon": -118.673119,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd87"
+  },
+  "id": 16,
+  "station_name": "BOR",
+  "station_lat": 33.2682,
+  "station_lon": -116.41716,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd88"
+  },
+  "id": 17,
+  "station_name": "BRE",
+  "station_lat": 33.807758,
+  "station_lon": -117.981163,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd89"
+  },
+  "id": 18,
+  "station_name": "BTP",
+  "station_lat": 34.68224,
+  "station_lon": -118.57398,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd8a"
+  },
+  "id": 19,
+  "station_name": "CAP",
+  "station_lat": 33.388222,
+  "station_lon": -117.194946,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd8b"
+  },
+  "id": 20,
+  "station_name": "CAR",
+  "station_lat": 35.30819,
+  "station_lon": -119.84583,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd8c"
+  },
+  "id": 21,
+  "station_name": "CCA",
+  "station_lat": 35.152519,
+  "station_lon": -118.016487,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd8d"
+  },
+  "id": 22,
+  "station_name": "CCC",
+  "station_lat": 35.524948,
+  "station_lon": -117.364532,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd8e"
+  },
+  "id": 23,
+  "station_name": "CHF",
+  "station_lat": 34.333408,
+  "station_lon": -118.025848,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd8f"
+  },
+  "id": 24,
+  "station_name": "CHN",
+  "station_lat": 33.998791,
+  "station_lon": -117.680443,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd90"
+  },
+  "id": 25,
+  "station_name": "CIA",
+  "station_lat": 33.401897,
+  "station_lon": -118.415024,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd91"
+  },
+  "id": 26,
+  "station_name": "CJM",
+  "station_lat": 34.27117,
+  "station_lon": -117.42448,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd92"
+  },
+  "id": 27,
+  "station_name": "CJV2",
+  "station_lat": 34.529781,
+  "station_lon": -118.144501,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd93"
+  },
+  "id": 28,
+  "station_name": "CLC",
+  "station_lat": 35.81574,
+  "station_lon": -117.59751,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd94"
+  },
+  "id": 29,
+  "station_name": "CLT",
+  "station_lat": 34.092838,
+  "station_lon": -117.316872,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd95"
+  },
+  "id": 30,
+  "station_name": "CRG",
+  "station_lat": 35.2422,
+  "station_lon": -119.72486,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd96"
+  },
+  "id": 31,
+  "station_name": "DEC",
+  "station_lat": 34.253529,
+  "station_lon": -118.333832,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd97"
+  },
+  "id": 32,
+  "station_name": "DEV",
+  "station_lat": 33.93597,
+  "station_lon": -116.577942,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd98"
+  },
+  "id": 33,
+  "station_name": "DGR",
+  "station_lat": 33.65001,
+  "station_lon": -117.00947,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd99"
+  },
+  "id": 34,
+  "station_name": "DJJ",
+  "station_lat": 34.10618,
+  "station_lon": -118.45505,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd9a"
+  },
+  "id": 35,
+  "station_name": "DLA",
+  "station_lat": 33.84822,
+  "station_lon": -118.09624,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd9b"
+  },
+  "id": 36,
+  "station_name": "DNR",
+  "station_lat": 33.56667,
+  "station_lon": -116.63056,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd9c"
+  },
+  "id": 37,
+  "station_name": "DPP",
+  "station_lat": 32.99889,
+  "station_lon": -116.941872,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd9d"
+  },
+  "id": 38,
+  "station_name": "DSC",
+  "station_lat": 35.142551,
+  "station_lon": -116.103951,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd9e"
+  },
+  "id": 39,
+  "station_name": "DTP",
+  "station_lat": 35.267422,
+  "station_lon": -117.84581,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cd9f"
+  },
+  "id": 40,
+  "station_name": "DVT",
+  "station_lat": 32.659149,
+  "station_lon": -116.100609,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda0"
+  },
+  "id": 41,
+  "station_name": "EDW",
+  "station_lat": 34.88303,
+  "station_lon": -117.991058,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda1"
+  },
+  "id": 42,
+  "station_name": "EDW2",
+  "station_lat": 34.8811,
+  "station_lon": -117.993881,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda2"
+  },
+  "id": 43,
+  "station_name": "ELS2",
+  "station_lat": 33.649071,
+  "station_lon": -117.426041,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda3"
+  },
+  "id": 44,
+  "station_name": "EML",
+  "station_lat": 32.89083,
+  "station_lon": -116.84566,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda4"
+  },
+  "id": 45,
+  "station_name": "FHO",
+  "station_lat": 34.093552,
+  "station_lon": -116.935883,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda5"
+  },
+  "id": 46,
+  "station_name": "FIG",
+  "station_lat": 34.72832,
+  "station_lon": -119.98803,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda6"
+  },
+  "id": 47,
+  "station_name": "FMP",
+  "station_lat": 33.712639,
+  "station_lon": -118.293808,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda7"
+  },
+  "id": 48,
+  "station_name": "FOX2",
+  "station_lat": 34.733898,
+  "station_lon": -118.240463,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda8"
+  },
+  "id": 49,
+  "station_name": "GMA",
+  "station_lat": 34.291481,
+  "station_lon": -116.382561,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cda9"
+  },
+  "id": 50,
+  "station_name": "GOR",
+  "station_lat": 33.153702,
+  "station_lon": -117.22921,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdaa"
+  },
+  "id": 51,
+  "station_name": "GR2",
+  "station_lat": 34.11816,
+  "station_lon": -118.30024,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdab"
+  },
+  "id": 52,
+  "station_name": "GSC",
+  "station_lat": 35.301769,
+  "station_lon": -116.80574,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdac"
+  },
+  "id": 53,
+  "station_name": "HAR",
+  "station_lat": 35.011398,
+  "station_lon": -117.299088,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdad"
+  },
+  "id": 54,
+  "station_name": "HEC",
+  "station_lat": 34.8294,
+  "station_lon": -116.335,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdae"
+  },
+  "id": 55,
+  "station_name": "HLL",
+  "station_lat": 34.17643,
+  "station_lon": -118.35967,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdaf"
+  },
+  "id": 56,
+  "station_name": "HMT2",
+  "station_lat": 33.708115,
+  "station_lon": -117.001526,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb0"
+  },
+  "id": 57,
+  "station_name": "HOL",
+  "station_lat": 34.458309,
+  "station_lon": -117.84539,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb1"
+  },
+  "id": 58,
+  "station_name": "HYS",
+  "station_lat": 34.865318,
+  "station_lon": -117.569748,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb2"
+  },
+  "id": 59,
+  "station_name": "IBP",
+  "station_lat": 32.661121,
+  "station_lon": -116.092857,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb3"
+  },
+  "id": 60,
+  "station_name": "IDO",
+  "station_lat": 33.79678,
+  "station_lon": -116.22152,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb4"
+  },
+  "id": 61,
+  "station_name": "IKP",
+  "station_lat": 32.65012,
+  "station_lon": -116.109482,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb5"
+  },
+  "id": 62,
+  "station_name": "IPT",
+  "station_lat": 34.19701,
+  "station_lon": -117.28498,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb6"
+  },
+  "id": 63,
+  "station_name": "ISA",
+  "station_lat": 35.66278,
+  "station_lon": -118.47403,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb7"
+  },
+  "id": 64,
+  "station_name": "JCS",
+  "station_lat": 33.085899,
+  "station_lon": -116.595901,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb8"
+  },
+  "id": 65,
+  "station_name": "JEM",
+  "station_lat": 33.08098,
+  "station_lon": -116.59755,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdb9"
+  },
+  "id": 66,
+  "station_name": "JNH2",
+  "station_lat": 34.448941,
+  "station_lon": -117.95541,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdba"
+  },
+  "id": 67,
+  "station_name": "JRC2",
+  "station_lat": 35.98249,
+  "station_lon": -117.80885,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdbb"
+  },
+  "id": 68,
+  "station_name": "JVA",
+  "station_lat": 34.36622,
+  "station_lon": -116.61266,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdbc"
+  },
+  "id": 69,
+  "station_name": "KYV",
+  "station_lat": 33.92545,
+  "station_lon": -116.1734,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdbd"
+  },
+  "id": 70,
+  "station_name": "LAF",
+  "station_lat": 33.86889,
+  "station_lon": -118.33143,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdbe"
+  },
+  "id": 71,
+  "station_name": "LCG",
+  "station_lat": 34.00033,
+  "station_lon": -118.37794,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdbf"
+  },
+  "id": 72,
+  "station_name": "LDR",
+  "station_lat": 34.990601,
+  "station_lon": -118.34156,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc0"
+  },
+  "id": 73,
+  "station_name": "LFP",
+  "station_lat": 34.30529,
+  "station_lon": -118.48805,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc1"
+  },
+  "id": 74,
+  "station_name": "LGB",
+  "station_lat": 33.9753,
+  "station_lon": -118.14918,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc2"
+  },
+  "id": 75,
+  "station_name": "LGU",
+  "station_lat": 34.108189,
+  "station_lon": -119.065872,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc3"
+  },
+  "id": 76,
+  "station_name": "LJR",
+  "station_lat": 34.807621,
+  "station_lon": -118.867752,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc4"
+  },
+  "id": 77,
+  "station_name": "LKH",
+  "station_lat": 33.23598,
+  "station_lon": -116.75876,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc5"
+  },
+  "id": 78,
+  "station_name": "LKL",
+  "station_lat": 34.61594,
+  "station_lon": -117.824928,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc6"
+  },
+  "id": 79,
+  "station_name": "LLS",
+  "station_lat": 33.684471,
+  "station_lon": -117.943039,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc7"
+  },
+  "id": 80,
+  "station_name": "LMR2",
+  "station_lat": 34.934391,
+  "station_lon": -117.696289,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc8"
+  },
+  "id": 81,
+  "station_name": "LMS",
+  "station_lat": 33.81744,
+  "station_lon": -117.445,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdc9"
+  },
+  "id": 82,
+  "station_name": "LMY",
+  "station_lat": 34.733166,
+  "station_lon": -119.103912,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdca"
+  },
+  "id": 83,
+  "station_name": "LPC",
+  "station_lat": 34.31478,
+  "station_lon": -117.54642,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdcb"
+  },
+  "id": 84,
+  "station_name": "LRL",
+  "station_lat": 35.47954,
+  "station_lon": -117.68212,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdcc"
+  },
+  "id": 85,
+  "station_name": "LRR2",
+  "station_lat": 34.527061,
+  "station_lon": -118.029984,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdcd"
+  },
+  "id": 86,
+  "station_name": "LTP",
+  "station_lat": 33.8811,
+  "station_lon": -118.175682,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdce"
+  },
+  "id": 87,
+  "station_name": "LUC2",
+  "station_lat": 34.456379,
+  "station_lon": -116.964233,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdcf"
+  },
+  "id": 88,
+  "station_name": "LUG",
+  "station_lat": 34.365601,
+  "station_lon": -117.366829,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd0"
+  },
+  "id": 89,
+  "station_name": "MCT",
+  "station_lat": 34.22645,
+  "station_lon": -116.04073,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd1"
+  },
+  "id": 90,
+  "station_name": "MGE",
+  "station_lat": 33.81841,
+  "station_lon": -116.36874,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd2"
+  },
+  "id": 91,
+  "station_name": "MLS",
+  "station_lat": 34.004601,
+  "station_lon": -117.561623,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd3"
+  },
+  "id": 92,
+  "station_name": "MOP",
+  "station_lat": 34.28096,
+  "station_lon": -118.904694,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd4"
+  },
+  "id": 93,
+  "station_name": "MPI",
+  "station_lat": 34.81258,
+  "station_lon": -119.145302,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd5"
+  },
+  "id": 94,
+  "station_name": "MPP",
+  "station_lat": 34.88848,
+  "station_lon": -119.81362,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd6"
+  },
+  "id": 95,
+  "station_name": "MSC",
+  "station_lat": 34.038521,
+  "station_lon": -116.647949,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd7"
+  },
+  "id": 96,
+  "station_name": "MSJ",
+  "station_lat": 33.80801,
+  "station_lon": -116.967888,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd8"
+  },
+  "id": 97,
+  "station_name": "MTG",
+  "station_lat": 33.19915,
+  "station_lon": -116.64727,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdd9"
+  },
+  "id": 98,
+  "station_name": "MUR",
+  "station_lat": 33.599991,
+  "station_lon": -117.195427,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdda"
+  },
+  "id": 99,
+  "station_name": "MWC",
+  "station_lat": 34.22362,
+  "station_lon": -118.05832,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cddb"
+  },
+  "id": 100,
+  "station_name": "NBS",
+  "station_lat": 34.78035,
+  "station_lon": -116.55798,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cddc"
+  },
+  "id": 101,
+  "station_name": "NCH",
+  "station_lat": 34.942699,
+  "station_lon": -119.67395,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cddd"
+  },
+  "id": 102,
+  "station_name": "OAT",
+  "station_lat": 34.34361,
+  "station_lon": -118.61442,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdde"
+  },
+  "id": 103,
+  "station_name": "OLI",
+  "station_lat": 33.945389,
+  "station_lon": -117.923721,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cddf"
+  },
+  "id": 104,
+  "station_name": "OLP",
+  "station_lat": 32.607712,
+  "station_lon": -116.930191,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde0"
+  },
+  "id": 105,
+  "station_name": "OSI",
+  "station_lat": 34.614498,
+  "station_lon": -118.723503,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde1"
+  },
+  "id": 106,
+  "station_name": "PALA",
+  "station_lat": 33.38905,
+  "station_lon": -117.031822,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde2"
+  },
+  "id": 107,
+  "station_name": "PAS",
+  "station_lat": 34.148441,
+  "station_lon": -118.171173,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde3"
+  },
+  "id": 108,
+  "station_name": "PASA",
+  "station_lat": 34.148441,
+  "station_lon": -118.171127,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde4"
+  },
+  "id": 109,
+  "station_name": "PASC",
+  "station_lat": 34.17141,
+  "station_lon": -118.18523,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde5"
+  },
+  "id": 110,
+  "station_name": "PDE",
+  "station_lat": 34.44199,
+  "station_lon": -118.58215,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde6"
+  },
+  "id": 111,
+  "station_name": "PDR",
+  "station_lat": 33.96273,
+  "station_lon": -118.437019,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde7"
+  },
+  "id": 112,
+  "station_name": "PDU",
+  "station_lat": 34.1207,
+  "station_lon": -117.63808,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde8"
+  },
+  "id": 113,
+  "station_name": "PER",
+  "station_lat": 33.861641,
+  "station_lon": -117.205292,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cde9"
+  },
+  "id": 114,
+  "station_name": "PLC",
+  "station_lat": 33.82436,
+  "station_lon": -116.511948,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdea"
+  },
+  "id": 115,
+  "station_name": "PLM",
+  "station_lat": 33.353611,
+  "station_lon": -116.862648,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdeb"
+  },
+  "id": 116,
+  "station_name": "PLS",
+  "station_lat": 33.7953,
+  "station_lon": -117.609062,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdec"
+  },
+  "id": 117,
+  "station_name": "PMD",
+  "station_lat": 33.64785,
+  "station_lon": -116.37769,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cded"
+  },
+  "id": 118,
+  "station_name": "POB2",
+  "station_lat": 33.68708,
+  "station_lon": -116.92382,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdee"
+  },
+  "id": 119,
+  "station_name": "PSD",
+  "station_lat": 33.823929,
+  "station_lon": -116.550262,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdef"
+  },
+  "id": 120,
+  "station_name": "PSR",
+  "station_lat": 34.091808,
+  "station_lon": -117.807091,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf0"
+  },
+  "id": 121,
+  "station_name": "RAG",
+  "station_lat": 34.682892,
+  "station_lon": -116.15139,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf1"
+  },
+  "id": 122,
+  "station_name": "RHC2",
+  "station_lat": 34.00095,
+  "station_lon": -118.013329,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf2"
+  },
+  "id": 123,
+  "station_name": "RIN",
+  "station_lat": 34.28196,
+  "station_lon": -118.47925,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf3"
+  },
+  "id": 124,
+  "station_name": "RIO",
+  "station_lat": 34.10473,
+  "station_lon": -117.97956,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf4"
+  },
+  "id": 125,
+  "station_name": "RKMO",
+  "station_lat": 33.67421,
+  "station_lon": -117.60947,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf5"
+  },
+  "id": 126,
+  "station_name": "RPV",
+  "station_lat": 33.743462,
+  "station_lon": -118.404121,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf6"
+  },
+  "id": 127,
+  "station_name": "RRX",
+  "station_lat": 34.875332,
+  "station_lon": -116.996841,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf7"
+  },
+  "id": 128,
+  "station_name": "RSS",
+  "station_lat": 33.97327,
+  "station_lon": -117.326736,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf8"
+  },
+  "id": 129,
+  "station_name": "RUS",
+  "station_lat": 34.050751,
+  "station_lon": -118.08078,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdf9"
+  },
+  "id": 130,
+  "station_name": "RVR",
+  "station_lat": 33.993511,
+  "station_lon": -117.37545,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdfa"
+  },
+  "id": 131,
+  "station_name": "SBB2",
+  "station_lat": 34.688438,
+  "station_lon": -117.824242,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdfb"
+  },
+  "id": 132,
+  "station_name": "SBC",
+  "station_lat": 34.440762,
+  "station_lon": -119.71492,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdfc"
+  },
+  "id": 133,
+  "station_name": "SBI",
+  "station_lat": 33.480461,
+  "station_lon": -119.029861,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdfd"
+  },
+  "id": 134,
+  "station_name": "SBPX",
+  "station_lat": 34.2324,
+  "station_lon": -117.23484,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdfe"
+  },
+  "id": 135,
+  "station_name": "SCI",
+  "station_lat": 32.9799,
+  "station_lon": -118.546967,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650cdff"
+  },
+  "id": 136,
+  "station_name": "SCI2",
+  "station_lat": 32.9799,
+  "station_lon": -118.546967,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce00"
+  },
+  "id": 137,
+  "station_name": "SCZ",
+  "station_lat": 33.995319,
+  "station_lon": -119.634354,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce01"
+  },
+  "id": 138,
+  "station_name": "SCZ2",
+  "station_lat": 33.99543,
+  "station_lon": -119.635101,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce02"
+  },
+  "id": 139,
+  "station_name": "SDD",
+  "station_lat": 33.552589,
+  "station_lon": -117.661713,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce03"
+  },
+  "id": 140,
+  "station_name": "SDG",
+  "station_lat": 32.784,
+  "station_lon": -117.138046,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce04"
+  },
+  "id": 141,
+  "station_name": "SDR",
+  "station_lat": 32.735611,
+  "station_lon": -116.942413,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce05"
+  },
+  "id": 142,
+  "station_name": "SES",
+  "station_lat": 34.43692,
+  "station_lon": -119.137497,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce06"
+  },
+  "id": 143,
+  "station_name": "SHO",
+  "station_lat": 35.899529,
+  "station_lon": -116.275299,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce07"
+  },
+  "id": 144,
+  "station_name": "SLA",
+  "station_lat": 35.89095,
+  "station_lon": -117.28332,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce08"
+  },
+  "id": 145,
+  "station_name": "SLH",
+  "station_lat": 33.19269,
+  "station_lon": -116.25399,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce09"
+  },
+  "id": 146,
+  "station_name": "SLR",
+  "station_lat": 33.833591,
+  "station_lon": -116.797371,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce0a"
+  },
+  "id": 147,
+  "station_name": "SMF2",
+  "station_lat": 34.02201,
+  "station_lon": -118.44627,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce0b"
+  },
+  "id": 148,
+  "station_name": "SMM",
+  "station_lat": 35.3142,
+  "station_lon": -119.99581,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce0c"
+  },
+  "id": 149,
+  "station_name": "SMS",
+  "station_lat": 34.014381,
+  "station_lon": -118.456169,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce0d"
+  },
+  "id": 150,
+  "station_name": "SNCC",
+  "station_lat": 33.247871,
+  "station_lon": -119.524368,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce0e"
+  },
+  "id": 151,
+  "station_name": "SNO",
+  "station_lat": 34.035149,
+  "station_lon": -116.807777,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce0f"
+  },
+  "id": 152,
+  "station_name": "SOF",
+  "station_lat": 33.37055,
+  "station_lon": -117.5574,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce10"
+  },
+  "id": 153,
+  "station_name": "SOT",
+  "station_lat": 34.416,
+  "station_lon": -118.448997,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce11"
+  },
+  "id": 154,
+  "station_name": "SPF",
+  "station_lat": 34.05933,
+  "station_lon": -118.646141,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce12"
+  },
+  "id": 155,
+  "station_name": "SRN",
+  "station_lat": 33.82854,
+  "station_lon": -117.78938,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce13"
+  },
+  "id": 156,
+  "station_name": "SRT",
+  "station_lat": 35.692348,
+  "station_lon": -117.750511,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce14"
+  },
+  "id": 157,
+  "station_name": "STC",
+  "station_lat": 34.30302,
+  "station_lon": -119.18676,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce15"
+  },
+  "id": 158,
+  "station_name": "STG",
+  "station_lat": 33.664001,
+  "station_lon": -117.768562,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce16"
+  },
+  "id": 159,
+  "station_name": "STS",
+  "station_lat": 33.790329,
+  "station_lon": -118.198776,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce17"
+  },
+  "id": 160,
+  "station_name": "SVD",
+  "station_lat": 34.106468,
+  "station_lon": -117.098221,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce18"
+  },
+  "id": 161,
+  "station_name": "SYP",
+  "station_lat": 34.52781,
+  "station_lon": -119.97832,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce19"
+  },
+  "id": 162,
+  "station_name": "TA2",
+  "station_lat": 34.38203,
+  "station_lon": -117.678223,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce1a"
+  },
+  "id": 163,
+  "station_name": "TEH",
+  "station_lat": 35.2913,
+  "station_lon": -118.42079,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce1b"
+  },
+  "id": 164,
+  "station_name": "TFT",
+  "station_lat": 35.14592,
+  "station_lon": -119.41946,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce1c"
+  },
+  "id": 165,
+  "station_name": "THM",
+  "station_lat": 33.65066,
+  "station_lon": -116.07734,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce1d"
+  },
+  "id": 166,
+  "station_name": "THX",
+  "station_lat": 33.634949,
+  "station_lon": -116.164017,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce1e"
+  },
+  "id": 167,
+  "station_name": "TOR",
+  "station_lat": 33.57526,
+  "station_lon": -116.22584,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce1f"
+  },
+  "id": 168,
+  "station_name": "TOV",
+  "station_lat": 34.156071,
+  "station_lon": -118.820389,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce20"
+  },
+  "id": 169,
+  "station_name": "TOW2",
+  "station_lat": 35.808559,
+  "station_lon": -117.764877,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce21"
+  },
+  "id": 170,
+  "station_name": "TPO",
+  "station_lat": 34.87883,
+  "station_lon": -118.22864,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce22"
+  },
+  "id": 171,
+  "station_name": "USC",
+  "station_lat": 34.019192,
+  "station_lon": -118.286308,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce23"
+  },
+  "id": 172,
+  "station_name": "VCS",
+  "station_lat": 34.48372,
+  "station_lon": -118.11781,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce24"
+  },
+  "id": 173,
+  "station_name": "VES",
+  "station_lat": 35.840889,
+  "station_lon": -119.084686,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce25"
+  },
+  "id": 174,
+  "station_name": "VTV",
+  "station_lat": 34.56065,
+  "station_lon": -117.329597,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce26"
+  },
+  "id": 175,
+  "station_name": "WAS2",
+  "station_lat": 35.7377,
+  "station_lon": -118.55743,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce27"
+  },
+  "id": 176,
+  "station_name": "WBS",
+  "station_lat": 35.53664,
+  "station_lon": -118.14035,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce28"
+  },
+  "id": 177,
+  "station_name": "WER",
+  "station_lat": 35.060532,
+  "station_lon": -119.027107,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce29"
+  },
+  "id": 178,
+  "station_name": "WGR",
+  "station_lat": 34.510849,
+  "station_lon": -119.274071,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce2a"
+  },
+  "id": 179,
+  "station_name": "WHF",
+  "station_lat": 35.695129,
+  "station_lon": -118.35183,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce2b"
+  },
+  "id": 180,
+  "station_name": "WLT",
+  "station_lat": 34.00948,
+  "station_lon": -117.950768,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce2c"
+  },
+  "id": 181,
+  "station_name": "WOR",
+  "station_lat": 35.695629,
+  "station_lon": -118.242462,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce2d"
+  },
+  "id": 182,
+  "station_name": "WRC2",
+  "station_lat": 35.947899,
+  "station_lon": -117.650383,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce2e"
+  },
+  "id": 183,
+  "station_name": "WSS",
+  "station_lat": 34.1717,
+  "station_lon": -118.649712,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce2f"
+  },
+  "id": 184,
+  "station_name": "WTT",
+  "station_lat": 33.948689,
+  "station_lon": -118.25547,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce30"
+  },
+  "id": 185,
+  "station_name": "WTT2",
+  "station_lat": 33.94867,
+  "station_lon": -118.25539,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce31"
+  },
+  "id": 186,
+  "station_name": "WWC",
+  "station_lat": 33.940681,
+  "station_lon": -116.40876,
+  "network": "CI"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce32"
+  },
+  "id": 187,
+  "station_name": "U32A",
+  "station_lat": 36.3795,
+  "station_lon": -99.0014,
+  "network": "OK"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce33"
+  },
+  "id": 188,
+  "station_name": "X37A",
+  "station_lat": 34.5892,
+  "station_lon": -95.3713,
+  "network": "OK"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce34"
+  },
+  "id": 189,
+  "station_name": "BABR",
+  "station_lat": 44.62132,
+  "station_lon": -123.78924,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce35"
+  },
+  "id": 190,
+  "station_name": "BLOW",
+  "station_lat": 44.6837,
+  "station_lon": -122.1862,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce36"
+  },
+  "id": 191,
+  "station_name": "BRAN",
+  "station_lat": 45.9734,
+  "station_lon": -117.2277,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce37"
+  },
+  "id": 192,
+  "station_name": "CCRK",
+  "station_lat": 46.558498,
+  "station_lon": -119.854797,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce38"
+  },
+  "id": 193,
+  "station_name": "DAVN",
+  "station_lat": 47.8006,
+  "station_lon": -118.2741,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce39"
+  },
+  "id": 194,
+  "station_name": "DDRF",
+  "station_lat": 46.4911,
+  "station_lon": -119.059502,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce3a"
+  },
+  "id": 195,
+  "station_name": "DOSE",
+  "station_lat": 47.7172,
+  "station_lon": -122.9718,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce3b"
+  },
+  "id": 196,
+  "station_name": "FISH",
+  "station_lat": 45.930599,
+  "station_lon": -123.559097,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce3c"
+  },
+  "id": 197,
+  "station_name": "FORK",
+  "station_lat": 47.9475,
+  "station_lon": -124.5662,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce3d"
+  },
+  "id": 198,
+  "station_name": "GNW",
+  "station_lat": 47.56413,
+  "station_lon": -122.82498,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce3e"
+  },
+  "id": 199,
+  "station_name": "GRCC",
+  "station_lat": 47.31237,
+  "station_lon": -122.180283,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce3f"
+  },
+  "id": 200,
+  "station_name": "HEBO",
+  "station_lat": 45.213501,
+  "station_lon": -123.755386,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce40"
+  },
+  "id": 201,
+  "station_name": "HOOD",
+  "station_lat": 45.322262,
+  "station_lon": -121.650932,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce41"
+  },
+  "id": 202,
+  "station_name": "IRON",
+  "station_lat": 43.358,
+  "station_lon": -118.4743,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce42"
+  },
+  "id": 203,
+  "station_name": "IZEE",
+  "station_lat": 44.082001,
+  "station_lon": -119.504204,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce43"
+  },
+  "id": 204,
+  "station_name": "JEDS",
+  "station_lat": 43.75157,
+  "station_lon": -124.04905,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce44"
+  },
+  "id": 205,
+  "station_name": "KENT",
+  "station_lat": 45.235699,
+  "station_lon": -120.635101,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce45"
+  },
+  "id": 206,
+  "station_name": "LCCR",
+  "station_lat": 45.2059,
+  "station_lon": -122.4784,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce46"
+  },
+  "id": 207,
+  "station_name": "LEBA",
+  "station_lat": 46.545898,
+  "station_lon": -123.563202,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce47"
+  },
+  "id": 208,
+  "station_name": "LON",
+  "station_lat": 46.750599,
+  "station_lon": -121.809601,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce48"
+  },
+  "id": 209,
+  "station_name": "LRIV",
+  "station_lat": 48.0575,
+  "station_lon": -123.504,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce49"
+  },
+  "id": 210,
+  "station_name": "LTY",
+  "station_lat": 47.25451,
+  "station_lon": -120.66636,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce4a"
+  },
+  "id": 211,
+  "station_name": "MEGW",
+  "station_lat": 46.26609,
+  "station_lon": -123.87709,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce4b"
+  },
+  "id": 212,
+  "station_name": "MRBL",
+  "station_lat": 48.518299,
+  "station_lon": -121.484497,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce4c"
+  },
+  "id": 213,
+  "station_name": "OFR",
+  "station_lat": 47.933128,
+  "station_lon": -124.396042,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce4d"
+  },
+  "id": 214,
+  "station_name": "OMAK",
+  "station_lat": 48.3584,
+  "station_lon": -119.3332,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce4e"
+  },
+  "id": 215,
+  "station_name": "OPC",
+  "station_lat": 48.10009,
+  "station_lon": -123.41291,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce4f"
+  },
+  "id": 216,
+  "station_name": "PASS",
+  "station_lat": 48.998299,
+  "station_lon": -122.085197,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce50"
+  },
+  "id": 217,
+  "station_name": "PHIN",
+  "station_lat": 45.8951,
+  "station_lon": -119.927803,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce51"
+  },
+  "id": 218,
+  "station_name": "RADR",
+  "station_lat": 46.42181,
+  "station_lon": -123.79897,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce52"
+  },
+  "id": 219,
+  "station_name": "RAI",
+  "station_lat": 46.040298,
+  "station_lon": -122.885101,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce53"
+  },
+  "id": 220,
+  "station_name": "RATT",
+  "station_lat": 47.42546,
+  "station_lon": -121.80254,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce54"
+  },
+  "id": 221,
+  "station_name": "RWW",
+  "station_lat": 46.964729,
+  "station_lon": -123.543411,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce55"
+  },
+  "id": 222,
+  "station_name": "SEP",
+  "station_lat": 46.200211,
+  "station_lon": -122.190598,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce56"
+  },
+  "id": 223,
+  "station_name": "SHUK",
+  "station_lat": 48.85284,
+  "station_lon": -121.67695,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce57"
+  },
+  "id": 224,
+  "station_name": "SP2",
+  "station_lat": 47.55629,
+  "station_lon": -122.249229,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce58"
+  },
+  "id": 225,
+  "station_name": "SPUD",
+  "station_lat": 47.664688,
+  "station_lon": -117.42749,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce59"
+  },
+  "id": 226,
+  "station_name": "SQM",
+  "station_lat": 48.073681,
+  "station_lon": -123.048058,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce5a"
+  },
+  "id": 227,
+  "station_name": "STOR",
+  "station_lat": 47.188099,
+  "station_lon": -121.9888,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce5b"
+  },
+  "id": 228,
+  "station_name": "TAKO",
+  "station_lat": 43.74313,
+  "station_lon": -124.08337,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce5c"
+  },
+  "id": 229,
+  "station_name": "TOLO",
+  "station_lat": 44.62161,
+  "station_lon": -123.92305,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce5d"
+  },
+  "id": 230,
+  "station_name": "TOLT",
+  "station_lat": 47.6947,
+  "station_lon": -121.6895,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce5e"
+  },
+  "id": 231,
+  "station_name": "TREE",
+  "station_lat": 42.7258,
+  "station_lon": -120.893402,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce5f"
+  },
+  "id": 232,
+  "station_name": "TTW",
+  "station_lat": 47.69445,
+  "station_lon": -121.690109,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce60"
+  },
+  "id": 233,
+  "station_name": "TUCA",
+  "station_lat": 46.513901,
+  "station_lon": -118.1455,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce61"
+  },
+  "id": 234,
+  "station_name": "UMAT",
+  "station_lat": 45.2904,
+  "station_lon": -118.9595,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce62"
+  },
+  "id": 235,
+  "station_name": "WISH",
+  "station_lat": 47.11698,
+  "station_lon": -123.77118,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce63"
+  },
+  "id": 236,
+  "station_name": "WOLL",
+  "station_lat": 47.057301,
+  "station_lon": -118.920998,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce64"
+  },
+  "id": 237,
+  "station_name": "YACT",
+  "station_lat": 45.9325,
+  "station_lon": -122.4193,
+  "network": "UW"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce65"
+  },
+  "id": 238,
+  "station_name": "ATLB",
+  "station_lat": 50.2184,
+  "station_lon": -127.06,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce66"
+  },
+  "id": 239,
+  "station_name": "BMSB",
+  "station_lat": 48.8356,
+  "station_lon": -125.1355,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce67"
+  },
+  "id": 240,
+  "station_name": "CBB",
+  "station_lat": 50.0315,
+  "station_lon": -125.3652,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce68"
+  },
+  "id": 241,
+  "station_name": "CPLB",
+  "station_lat": 48.6118,
+  "station_lon": -124.7512,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce69"
+  },
+  "id": 242,
+  "station_name": "EDB",
+  "station_lat": 49.873,
+  "station_lon": -127.1216,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce6a"
+  },
+  "id": 243,
+  "station_name": "GHNB",
+  "station_lat": 49.3065,
+  "station_lon": -124.2364,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce6b"
+  },
+  "id": 244,
+  "station_name": "GLBC",
+  "station_lat": 48.396,
+  "station_lon": -123.6363,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce6c"
+  },
+  "id": 245,
+  "station_name": "HNB",
+  "station_lat": 49.2745,
+  "station_lon": -122.5792,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce6d"
+  },
+  "id": 246,
+  "station_name": "HOPB",
+  "station_lat": 49.3872,
+  "station_lon": -121.4206,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce6e"
+  },
+  "id": 247,
+  "station_name": "JRBC",
+  "station_lat": 48.3957,
+  "station_lon": -123.96,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce6f"
+  },
+  "id": 248,
+  "station_name": "KHVB",
+  "station_lat": 48.5688,
+  "station_lon": -123.4663,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce70"
+  },
+  "id": 249,
+  "station_name": "LLLB",
+  "station_lat": 50.609,
+  "station_lon": -121.8815,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce71"
+  },
+  "id": 250,
+  "station_name": "LZB",
+  "station_lat": 48.6122,
+  "station_lon": -123.824,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce72"
+  },
+  "id": 251,
+  "station_name": "NLLB",
+  "station_lat": 49.2271,
+  "station_lon": -123.9882,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce73"
+  },
+  "id": 252,
+  "station_name": "OZB",
+  "station_lat": 48.9612,
+  "station_lon": -125.4978,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce74"
+  },
+  "id": 253,
+  "station_name": "PGC",
+  "station_lat": 48.6498,
+  "station_lon": -123.4521,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce75"
+  },
+  "id": 254,
+  "station_name": "PHC",
+  "station_lat": 50.7067,
+  "station_lon": -127.433,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce76"
+  },
+  "id": 255,
+  "station_name": "SHB",
+  "station_lat": 49.5985,
+  "station_lon": -123.8771,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce77"
+  },
+  "id": 256,
+  "station_name": "SHDB",
+  "station_lat": 48.797,
+  "station_lon": -123.636,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce78"
+  },
+  "id": 257,
+  "station_name": "SHVB",
+  "station_lat": 48.4723,
+  "station_lon": -123.636,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce79"
+  },
+  "id": 258,
+  "station_name": "SNB",
+  "station_lat": 48.7751,
+  "station_lon": -123.1723,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce7a"
+  },
+  "id": 259,
+  "station_name": "TASB",
+  "station_lat": 49.9266,
+  "station_lon": -126.6513,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce7b"
+  },
+  "id": 260,
+  "station_name": "THAB",
+  "station_lat": 49.28,
+  "station_lon": -124.9184,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce7c"
+  },
+  "id": 261,
+  "station_name": "TLCB",
+  "station_lat": 50.5465,
+  "station_lon": -126.8345,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce7d"
+  },
+  "id": 262,
+  "station_name": "VGZ",
+  "station_lat": 48.4131,
+  "station_lon": -123.3251,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce7e"
+  },
+  "id": 263,
+  "station_name": "WISB",
+  "station_lat": 50.1265,
+  "station_lon": -122.9212,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce7f"
+  },
+  "id": 264,
+  "station_name": "WSLR",
+  "station_lat": 50.1266,
+  "station_lon": -122.9212,
+  "network": "CN"
+},{
+  "_id": {
+    "$oid": "606b2066474ef7248650ce80"
+  },
+  "id": 265,
+  "station_name": "WTRB",
+  "station_lat": 50.1298,
+  "station_lon": -126.0353,
+  "network": "CN"
+}]

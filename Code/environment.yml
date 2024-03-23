@@ -1,0 +1,19 @@
+name: EEW_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - anaconda
+  - python=3.8
+  - tensorflow
+  - numpy
+  - scipy
+  - matplotlib
+  - shapely
+  - pandas
+  - obspy
+  - cartopy
+  - ipykernel
+  - jupyter
+  - flask
+  - pymongo

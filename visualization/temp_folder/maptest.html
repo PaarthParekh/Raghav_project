@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>element1-mainmap</title>
+	<!-- adapted from https://leafletjs.com/examples.html and others listed below-->>
+	<meta charset='utf-8'>
+	<!-- Leaflet -->
+	<link rel='stylesheet' href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css' />
+	<script src='https://unpkg.com/leaflet@1.7.1/dist/leaflet.js'></script>
+	<!-- jQuery and PapaParse as used in https://handsondataviz.org/leaflet-maps-with-csv.html-->
+	<!-- and https://github.com/HandsOnDataViz/leaflet-map-csv/blob/main/index.html -->
+	<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js'></script>
+	<!-- second line for will-change memory warning -->
+	<style>
+		#map {position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+		.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated { will-change:auto !important; }
+	</style>
+</head>
+<body>
+	<div id = 'map'></div>
+	<script>
+		var map = L.map('#map').setView([40, -95.7129], 5);
+
+		// map tile
+		L.tileLayer('https://api.maptiler.com/maps/topo/{z}/{x}/{y}.png?key=11GdBkCMuhzyacQ0k2nl', {
+			attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+		}).addTo(map);
+
+		// inital bounding boxes
+
+		var CI = L.rectangle(
+			[[32.0, -120.0],
+			[32.0, -116.0],
+			[36.0, -120.0],
+			[36.0, -116.0]],
+			{
+				color: '#fef0d9',
+				weight: 1
+			}
+		);
+
+		var UW = L.rectangle(
+			[[41.0, -125.0],
+			[41.0, -116.0],
+			[49.0, -125.0],
+			[49.0, -116.0]],
+			{
+				color: '#fdcc8a',
+				weight: 1
+			}
+		);
+
+		var OK = L.rectangle(
+			[[33.0, -100.0],
+			[33.0, -94.0],
+			[37.0, -100.0],
+			[37.0, -94.0]],
+			{
+				color: '#fc8d59',
+				weight: 1
+			}
+		);
+
+		var CN = L.rectangle(
+			[[48.26, -129.5],
+			[48.26, -121.42],
+			[51.05, -129.5],
+			[51.05, -121.42]],
+			{
+				color: '#d7301f',
+				weight: 1
+			}
+		);
+
+		// currently in a overlay
+		var bounding_boxes = L.layerGroup([CI, UW, OK, CN]);
+		var overlay = {
+			'bounds': bounding_boxes
+		}
+		L.control.layers(null, overlay).addTo(map);
+		bounding_boxes.addTo(map);
+
+		// adapted from https://github.com/HandsOnDataViz/leaflet-map-csv/blob/main/index.html
+		// Read markers data from data.csv
+		$.get('./test_input_for_map.csv', function(csvString) {
+
+			// Use PapaParse to convert string to array of objects
+			var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
+
+			// For each row in data, create a marker and add it to the map
+			// For each row, columns `evt_lat`, `evt_lon`, and `earthquake_id` are required
+			for (var i in data) {
+  				var row = data[i];
+				
+				  if (row.earthquake_id != undefined) {
+  					var marker = L.marker([row.evt_lat, row.evt_lon], {
+						opacity: 1
+  					});
+					marker.id = row.earthquake_id;
+			
+					marker.bindPopup(row.earthquake_id);
+					
+					// try to return id of clicked marker
+					marker.on('click', function(d) {
+						var id = d.target.id;
+						console.log(id);
+					});
+				  
+  					marker.addTo(map);
+				}
+			}
+
+		});
+
+
+	</script>
+</body>
+</html>

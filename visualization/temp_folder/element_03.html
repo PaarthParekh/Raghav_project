@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Element 03 - Time Interval</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/lib/css//bootstrap.min.css">
+    <link rel="stylesheet" href="../static/lib/css/keen-dashboards.css">
+    <link rel="stylesheet" href="../static/lib/css/dc.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+
+    <script type="text/javascript" src="../static/lib/js/d3.js"></script>
+    <script type="text/javascript" src="../static/lib/js/dc.js"></script>
+    <script type="text/javascript" src="../static/lib/js/crossfilter.js"></script>
+</head>
+<body>
+    <div id="time_interval"></div> 
+    <script>
+
+    var network = [ {date: "2007-07", number_of_events: 300},
+                    {date: "2013-01", number_of_events: 500},
+                    {date: "2010-02", number_of_events: 400},
+                    {date: "2004-12", number_of_events: 49},
+                    {date: "2003-02", number_of_events: 23} ];
+    
+    var width = 600;
+    var height = 200;
+    var timeChart =  dc.barChart('#time_interval');
+    var timeFormat = d3.time.format("%y-%m");
+
+    var xScale = d3.time.scale()
+    .domain([d3.min(network, function(d) { return new Date(d["date"]); }), d3.max(network, function(d) { return new Date(d["date"]); })])
+    .range([0, width]);
+
+    var yScale = d3.scale.linear()
+    .domain([0, d3.max(network, function(d) { return d["number_of_events"]; }) ])
+    .range([height, 0]);
+
+    var cross = crossfilter(network);
+    var dateDim = cross.dimension(function(d) { return new Date(d["date"]); });
+    var eventCounts = dateDim.group().reduceSum(function(d) { return d["number_of_events"]; }); 
+
+    timeChart
+        .width(width)
+        .height(height)
+        .margins({top: 10, right: 50, bottom: 40, left: 35})
+        .dimension(dateDim)
+        .group(eventCounts)
+        .brushOn(true)
+        .x(xScale)
+        .y(yScale)
+        .gap(1)
+        .centerBar(true)
+        .xUnits(function() { return 10; })
+        .xAxisLabel("Year/Month")
+        .yAxisLabel("Number of Events")
+
+    timeChart.render();
+
+    </script>
+
+</body>

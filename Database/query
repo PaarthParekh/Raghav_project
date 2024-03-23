@@ -1,0 +1,132 @@
+#data processing
+db.ground_truth_lookup.aggregate(
+    [ { "$addFields":  
+        {
+            "network": { 
+                "$switch": { 
+                    "branches": [ 
+                        { 
+                            "case": { 
+                                "$and": [ 
+                                    { "$gt": [ "$evt_lat", 32 ] }, 
+                                    { "$lte": [ "$evt_lat", 36 ] },
+                                    { "$gt": [ "$evt_lon", -120 ] }, 
+                                    { "$lte": [ "$evt_lon", -116 ] }
+                                ] 
+                            }, 
+                            "then": "CI" 
+                        }, 
+                        { 
+                            "case": { 
+                                "$and": [ 
+                                    { "$gt": [ "$evt_lat", 41 ] }, 
+                                    { "$lte": [ "$evt_lat", 49 ] },
+                                    { "$gt": [ "$evt_lon", -125 ] }, 
+                                    { "$lte": [ "$evt_lon", -116 ] }
+                                ] 
+                            }, 
+                            "then": "UW" 
+                        },
+                        { 
+                            "case": { 
+                                "$and": [ 
+                                    { "$gt": [ "$evt_lat", 33 ] }, 
+                                    { "$lte": [ "$evt_lat", 37 ] },
+                                    { "$gt": [ "$evt_lon", -100 ] }, 
+                                    { "$lte": [ "$evt_lon", -94 ] }
+                                ] 
+                            }, 
+                            "then": "OK" 
+                        },
+                        { 
+                            "case": { 
+                                "$and": [ 
+                                    { "$gt": [ "$evt_lat", 48.26 ] }, 
+                                    { "$lte": [ "$evt_lat", 51.05 ] },
+                                    { "$gt": [ "$evt_lon", -129.5 ] }, 
+                                    { "$lte": [ "$evt_lon", -121.42 ] }
+                                ] 
+                            }, 
+                            "then": "CN" 
+                        }
+                    ] , default: "NA"
+                } 
+            } 
+        }
+    }, 
+    {
+        "$out" : "ground_truth_lookup"
+    }
+    ]
+)
+
+#change time_format and filter network earthquake data in specific time range
+db.ground_truth_lookup.find().forEach(function(data){
+...    data.event_time= ISODate(data.event_time);
+...    db.ground_truth_lookup.save(data);
+... })
+
+
+db.ground_truth_lookup.aggregate([
+... { $addFields: {stringDate: { $dateToString: { format: "%Y-%m", date: "$event_time" } } } },
+    { "$out" : "ground_truth_lookup"}
+... ]).pretty()
+
+db.stringdate.renameCollection("ground_truth_lookup")
+
+#rename column
+db.ground_truth_lookup.update({},{$rename: {'eathquake_id':'earthquake_id'}},false, true)
+
+# Element 2: list of distinct network
+db.station_lookup.distinct("network") 
+
+#Element2: filter network
+db.ground_truth_lookup.find({network: "CI"}) 
+
+
+
+#Element3: count event per month with filter network
+db.ground_truth_lookup.aggregate([
+    {$match: {"network": "CI"}},
+    {"$group" : {_id:"$stringDate", count:{$sum:1}}}
+]).pretty()
+
+#count event with filter network in specific network
+db.ground_truth_lookup.aggregate([
+... { $addFields: {stringDate: { $dateToString: { format: "%Y-%m", date: "$event_time" } } } },
+... { $match: {
+                "$and":[
+                    {"stringDate":{ "$gte" : "2007-07", "$lt" : "2013-01" }},
+                    {"network": "CI"}
+                    ]}},
+    { $count: "event_count"}
+... ]).pretty()
+
+#Element4: get information for certain earthquake_id
+db.experiments.find( { "earthquake_id": "GT10484"} )
+
+#Element5: 
+#table 1:
+db.ground_truth_lookup.aggregate([
+  { $project : { evt_lat : 1, evt_lon : 1, stations: 1, earthquake_id: "GT10484"} }
+]).pretty()
+
+db.ground_truth_lookup.aggregate([
+  { $match: {earthquake_id: "GT10484"}},
+  { $unwind: "$stations"},
+  { $project: {stations: 1}}
+]).pretty()
+
+db.ground_truth_lookup.aggregate([
+    { $match: {earthquake_id: "GT10484"}},
+    {
+        $lookup : {
+            from: "station_lookup", 
+            localField: "station_name",
+            foreignField: "stations",
+            as: "station_data"
+        }
+    }, 
+    { $project: {"earthquake_id": "GT10484", "station_data.station_name": 1, "station_data.station_lat": 1, "station_data.station_lon": 1}}
+]).pretty()
+

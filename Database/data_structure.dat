@@ -1,0 +1,70 @@
+1. Experienment output json file:
+{
+'GT10660':[{'exp_id': 'PT001',
+            'stations': ["ARV", "BAK", "BAR", "BBR", "BFS", "CHF", "CIA",.....]
+            'evt_lat': 32.0681,
+            'evt_lon': 140.05,
+            'evt_dep': 10.0,
+            'evt_mag': 3.5,
+            'evt_dist_err': 0.5,
+            'evt_lat_err': 1.2,
+            'evt_lon_err': 3.0,
+            'evt_dep_err': 2.0,
+            'evt_mag_err': 1.0,
+            'evt_lat_std': 0.24,
+            'evt_lon_std': 0.1,
+            'evt_dep_std': 0.15,
+            'evt_mag_std': 0.25},
+            {'exp_id': 'PT002',
+            'stations': ["ARV", "BAK", "BAR", "BBR", "BFS", "CHF", "CIA",.....]
+            'evt_lat': 32.0681,
+            'evt_lon': 140.05,
+            'evt_dep': 10.0,
+            'evt_mag': 3.5,
+            'evt_dist_err': 0.5, # event distance error (in km)
+            'evt_lat_err': 1.2,  # event latitute error (in degree)
+            'evt_lon_err': 3.0,  # event longitude error (in degree)
+            'evt_dep_err': 2.0,  # event depth error (in km)
+            'evt_mag_err': 1.0,  # event magnitude error (no unit)
+            'evt_lat_std': 0.24, # event latitute error standard distribution
+            'evt_lon_std': 0.1,  # event longitude error standard distribution
+            'evt_dep_std': 0.15, # event depth error standard distribution
+            'evt_mag_std': 0.25}] # event magnitude error standard distribution
+'GT10661':[{'exp_id': 'PT001',
+            'stations': ["ARV", "BAK", "BAR", "BBR", "BFS", "CHF", "CIA",.....]
+            'evt_lat': 32.0681,
+            'evt_lon': 140.05,
+            'evt_dep': 10.0,
+            'evt_mag': 3.5,
+            'evt_dist_err': 0.5,
+            'evt_lat_err': 1.2,
+            'evt_lon_err': 3.0,
+            'evt_dep_err': 2.0,
+            'evt_mag_err': 1.0,
+            'evt_lat_std': 0.24,
+            'evt_lon_std': 0.1,
+            'evt_dep_std': 0.15,
+            'evt_mag_std': 0.25},        
+
+....
+}
+
+2 station look up table csv:
+-----------------
+,station_name,station_lat,station_lon,network
+0,ADO,0.27523049999999927,0.28304649999999754,CI
+1,AGA,-0.1808109999999985,0.7994500000000002,CI
+2,ALP,0.34354000000000084,-0.14973049999999688,CI
+...
+
+3. ground truth event look up json file:
+{
+'GT10660': [{'stations': ["ARV", "BAK",...], 'evt_lat': 32.0681, 'evt_lon': -116.3624, 'evt_dep': 26.0, 'evt_mag': 3.0}],
+'GT10661': [{'stations': ["ADO", "BAK",...], 'evt_lat': 31.0681, 'evt_lon': -115.3624, 'evt_dep': 25.0, 'evt_mag': 3.6}],
+}
+
+    
+Note: 
+GT stands for ground truth and PT stands for prediction.
+GT1xxxx are ids for earthquakes in California. and GT3xxxx are earthquakes from Pacific North East.
+
